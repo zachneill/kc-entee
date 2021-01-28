@@ -40,8 +40,8 @@ body {
 }
 #zach {
   transform: rotate(10deg);
-  height: 38rem;
-  width: 30rem;
+  max-width:100%;
+  height:auto;
   display: flex;
   align-items: flex-start;
 }
@@ -221,32 +221,31 @@ h3 {
   align-items: flex-start;
 }
 #matt {
-  height: 36rem;
-  width: 35rem;
+  max-width:100%;
+  height:auto;
 }
 #steve {
-  height: 38rem;
-  width: 33rem;
+  max-width:100%;
+  height:auto;
 }
 #ezra {
-  height: 38rem;
-  width: 27rem;
-}
+  max-width:100%;
+  height:auto;
 #blue {
-  height: 38rem;
-  width: 28rem;
+  max-width:100%;
+  height:auto;
 }
 #grace {
-  height: 38rem;
-  width: 32.5rem;
+  max-width:100%;
+  height:auto;
 }
 #taran {
-  height: 38rem;
-  width: 26rem;
+  max-width:100%;
+  height:auto;
 }
 #billy {
-  height: 38rem;
-  width: 30rem;
+  max-width:100%;
+  height:auto;
 }
 .others-text {
   font-size: 140%;
