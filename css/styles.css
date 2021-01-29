@@ -37,8 +37,8 @@ body {
   padding-right: 1.5rem;
 }
 .chronicles-link {
-  font-size: 1.4rem !important;
-  font-weight: 900 !important;
+  font-size: 1.4rem;
+  font-weight: 900;
 }
 img {
   overflow: auto;
