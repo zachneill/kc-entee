@@ -18,6 +18,9 @@ body {
 .navbar {
   padding: 0 0 4.5rem;
 }
+.navbar-nav {
+  align-items:baseline;
+}
 .navbar-brand {
   font-size: 2.7rem;
 }
