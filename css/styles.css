@@ -30,7 +30,6 @@ body {
   font-weight: 500;
   display: flex;
   align-items: baseline;
-  justify-content: bottom;
 }
 .nav-chronicles {
   font-size: 1.6rem;
@@ -38,12 +37,11 @@ body {
   padding: 0 2rem 0 0 !important;
   color: #80adc2;
 }
+img {
+  overflow: auto;
+}
 #zach {
-  transform: rotate(10deg);
-  max-width:100%;
-  height:auto;
-  display: flex;
-  align-items: flex-start;
+  transform: rotate(8deg);
 }
 .click-btn {
   margin: 5% 3% 5% 0;
@@ -98,8 +96,11 @@ h2 {
 /* Section 3 */
 
 #go {
-  background: #white;
+  background: white;
   padding-top: 4rem;
+}
+.container {
+  max-width: 90%;
 }
 .s3-h2 {
   color: #005A8B;
@@ -116,6 +117,7 @@ h2 {
   align-items: center;
   justify-content: center;
   border: 0.4rem solid #333333;
+  max-width: 90%;
   height: 11rem;
 }
 .box1-text {
@@ -128,6 +130,7 @@ h2 {
   align-items: center;
   justify-content: center;
   border: 0.4rem dotted #333333;
+  max-width: 90%;
   height: 11rem;
 }
 .box2-text {
@@ -140,6 +143,7 @@ h2 {
   align-items: center;
   justify-content: center;
   border: 0.4rem solid #005A8B;
+  max-width: 90%;
   height: 11rem;
 }
 .box3-text {
@@ -164,8 +168,6 @@ h3 {
 #dis-div {
   margin: auto;
   text-align: center;
-
-
 }
 #footer {
   margin: 1rem 0 0 1rem;
@@ -219,31 +221,6 @@ h3 {
 .person-img {
   display: flex;
   align-items: flex-start;
-}
-#matt {
-  max-width:100%;
-  height:auto;
-}
-#steve {
-  max-width:100%;
-  height:auto;
-}
-#ezra {
-  max-width:100%;
-  height:auto;
-#blue {
-  max-width:100%;
-  height:auto;
-}
-#grace {
-  max-width:100%;
-  height:auto;
-}
-#taran {
-  max-width:100%;
-  height:auto;
-}
-#billy {
   max-width:100%;
   height:auto;
 }
