@@ -7,7 +7,7 @@ h1 {
   font-weight: 900;
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, Roboto, Arial, sans-serif;
 }
 .container-fluid {
   padding: 3% 10%;
@@ -62,7 +62,7 @@ img {
   padding: 6rem 0;
 }
 
-/* Section 2 */
+/* Explanation */
 
 #explanation {
   background-color: #333333;
@@ -96,7 +96,7 @@ h2 {
   display: flex;
 }
 
-/* Section 3 */
+/* If Your Name... */
 
 #go {
   background: white;
@@ -155,13 +155,33 @@ h2 {
   justify-content: center;
 }
 
-/* Section 4 */
+/* Verified Users */
 
-#disclaimer {
+#users {
   background: #005A8B;
 }
-.s4-h2 {
+.s4-users {
+  color: white;
+  padding: 3rem 0 3rem 0;
+}
+/* #users-carousel {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+} */
+.carousel-h2 {
   color: #333333;
+}
+.carousel-p {
+  color: #333333;
+}
+/* Disclaimer */
+
+#disclaimer {
+  background: #333333;
+}
+.s4-h2 {
+  color: #005A8B;
   padding: 3rem 0 3rem 0;
 }
 h3 {
@@ -179,9 +199,9 @@ h3 {
 .back-to-top {
   text-align: center;
 }
-#attribute {
-  color: white;
-  font-size: 0.2rem;
+
+.btn-primary {
+  background: #005A8B;
 }
 
 /* Chronicles */
