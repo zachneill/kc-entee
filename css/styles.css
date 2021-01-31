@@ -205,7 +205,10 @@ h3 {
 .back-to-top {
   text-align: center;
 }
-
+#attribute {
+  color: white;
+  font-size: 2px;
+}
 .btn-primary {
   background: #005A8B;
 }
