@@ -49,17 +49,16 @@ img {
 .click-btn {
   margin: 5% 3% 5% 0;
 }
-.s1-p {
-  font-size: 140%;
+.s1-p, .s1-p2 {
   color: white;
   line-height: 2;
   padding: 6rem 0;
 }
+.s1-p {
+  font-size: 140%;
+}
 .s1-p2 {
   font-size: 110%;
-  color: white;
-  line-height: 2;
-  padding: 6rem 0;
 }
 
 /* Explanation */
@@ -115,44 +114,36 @@ h2 {
   text-align: center;
   display: block;
 }
-.box1 {
-  background: #005A8B;
+.box1, .box2, .box3 {
   align-items: center;
   justify-content: center;
-  border: 0.4rem solid #333333;
   max-width: 90%;
   height: 11rem;
+}
+.box1-text, .box2-text, .box3-text {
+  display: flex;
+  justify-content: center;
+}
+.box1 {
+  background: #005A8B;
+  border: 0.4rem solid #333333;
 }
 .box1-text {
   color: white;
-  display: flex;
-  justify-content: center;
 }
 .box2 {
   background: white;
-  align-items: center;
-  justify-content: center;
   border: 0.4rem dotted #333333;
-  max-width: 90%;
-  height: 11rem;
 }
 .box2-text {
   color: #005A8B;
-  display: flex;
-  justify-content: center;
 }
 .box3 {
   background: #333333;
-  align-items: center;
-  justify-content: center;
   border: 0.4rem solid #005A8B;
-  max-width: 90%;
-  height: 11rem;
 }
 .box3-text {
   color: white;
-  display: flex;
-  justify-content: center;
 }
 
 /* Verified Users */
@@ -170,15 +161,7 @@ h2 {
   text-align: center;
   font-size: 150%;
 }
-/* #users-carousel {
-  height: auto;
-  width: auto;
-  overflow: hidden;
-} */
-.carousel-h2 {
-  color: #333333;
-}
-.carousel-p {
+.carousel-h2, .carousel-p {
   color: #333333;
 }
 /* Disclaimer */
@@ -230,17 +213,16 @@ h3 {
   border: 0.2rem solid #005A8B;
   margin: 0 auto 2rem auto;
 }
-#tldr-text {
+#tldr-text, #tldr-text2 {
   font-weight: 600;
-  padding: 4rem 0 2rem 0;
   text-align: center;
   color: white;
 }
+#tldr-text1 {
+  padding: 4rem 0 2rem 0;
+}
 #tldr-text2 {
-  font-weight: 600;
   padding-top: 2rem;
-  text-align: center;
-  color: white;
 }
 
 /* People */
